@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Port+Lligat+Slab&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;  
+}
+
+:root{
+    --bg: linear-gradient(#001a33, #0079c7);
+    --color:#b2e8b2;
+}
+
+/* || BLUE CIRCLE */
+/* .registration .circle {
+    position: absolute;
+    top:19.84vh;
+    left:85.67vw;
+    height: 8.28vh;
+    width: 18.44vw;
+    background-color: #26f7f1;
+    border-radius: 50%;
+    z-index: 1;
+
+} */
+
+
+/* || REGISTRATION */
+.registration {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5.34vh;
+    position: relative;
+}
+.registration hr{
+    color: var(--bg);
+    background-color: var(--bg);
+    border-color: var(--bg);
+}
+.registration .hello1 {
+    color: black;
+    position: absolute;
+    left:4.85vw;
+    top: 7.74vh;
+}
+.registration .hello1 h1{
+    font-size:73px ;
+}
+.registration .hello1 h4{
+    font-size:23.27px;
+}
+.registration .main {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 77.31vh;
+    width: 100vw;
+    position: absolute;
+    top:25.40vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    gap:3.27vh;
+}
+.registration .main h4 {
+    margin-top: 2.18vh;
+    text-align: center;
+    width: 93.20vw;
+    font-size: 25px;
+    color:var(--color);
+}
+.registration .main #form .you{
+    display:flex;
+    flex-direction: column;
+    gap:1.85vh;
+}
+.registration .main #form .you div{
+    display: flex;
+    flex-direction: column;
+    width: 91.01vw; 
+    height: 7.08vh;
+    position: relative;
+}
+.registration .main #form .you div label {
+    opacity:0.7;
+    color:var(--bg);
+}
+.registration .main #form .you div input{
+    border-radius: 5px;
+    border-color: var(--bg);
+    border: 1px solid;
+    height: 4.5vh;
+    padding-left:2.42vw ;
+}
+.registration .main #form button {
+    color:#fff;
+    margin-top: 2.18vh;
+    margin-bottom: 2.18vh;
+    width:93.20vw;
+    height: 4.5vh;
+    border-radius: 20px;
+    background-color: #001a33;
+    cursor: pointer;
+}
+.registration .main #form .app a{
+    font-size: 16px;
+    color: var(--bg);
+    text-decoration: none;
+    
+}
+.registration .main #form .app {
+    margin-top: 1.63vh;
+    text-align: center;
+}
+.registration .main #form .you .remember #rememberPassword {
+    width: 4.85vw;
+    height:2.18vh;
+    float: left;
+}
+.registration .main #form .you .remember {
+    
+    display: flex;
+    flex-direction: row;
+}
+
